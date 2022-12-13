@@ -2,7 +2,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 
 def access():
-    credentials = service_account.Credentials.from_service_account_file('/app/gcp.json')
+    credentials = service_account.Credentials.from_service_account_file('/workspaces/Pomelo_Proj4/gcp.json')
     project_id = 'swift-handler-370202'
     return credentials, project_id
 
@@ -45,6 +45,6 @@ def pop_album():
     results = query_job.result()
     return results
 
-# list = pop_artist()
-# for i in list:
-#     print(i)
+list_artist = pop_artist()
+for i in list_artist:
+    print(i)

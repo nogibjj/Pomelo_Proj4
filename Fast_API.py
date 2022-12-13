@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello"}
+    return {"message": "Hello! This is API processing the most popular music attributes"}
 
 
 @app.get("/topartist", response_class=PlainTextResponse)
