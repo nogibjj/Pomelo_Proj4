@@ -1,10 +1,10 @@
 # Project 4
 
 ### Project Goal
-In Project 4, I aimed to 
+In Project 4, I aimed to connect different cloud platforms and tried to use AWS App Runner and ECT. This entire project is pushed to AWS ECR and AWS app runner. Because I also turned the aws app runner's auto deploy function (now it is not showing because of termination). 
 
 ### Project Workflows
-1
+1. Build up Fast API based on Project 3, i.e., building up functions. 
+2. Connecting to EC2 and AWS App Runner. 
+3. Running the projects and testing.
 
-###
-This project is apushed to AWS ECR and AWS app runner. Because I also turned on the aws app runner's auto deploy function, the app runner could update automatically when new (updated) docker image is pushed to AWS ECR.
